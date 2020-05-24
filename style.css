@@ -16,6 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  margin: 0;
 }
 
 .music-container {
@@ -44,7 +45,6 @@ body {
   width: 18px;
   height: 18px;
   transform: translate(-50%, 50%);
-  border: 4px solid black;
 }
 
 .img-container img {
@@ -56,6 +56,7 @@ body {
   bottom: 0;
   left: 0;
   animation: rotate 3s linear infinite;
+
   animation-play-state: paused;
 }
 
@@ -104,9 +105,9 @@ body {
   transform: translateY(0%);
   transition: transform 0.3s ease-in, opacity 0.3s ease-in;
   opacity: 0;
-  z-index: 0;
   width: calc(100% - 40px);
   padding: 10px 10px 10px 150px;
+  z-index: -10;
 }
 
 .music-container.play .music-info {
