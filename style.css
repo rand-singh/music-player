@@ -123,8 +123,8 @@ body {
   background: white;
   border-radius: 5px;
   cursor: pointer;
-  margin: 10px;
-  height: 4px;
+  margin: 10px 0;
+  height: 10px;
   width: 100%;
 }
 
